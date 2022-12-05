@@ -1,3 +1,4 @@
+/*
 const modal = $("#modal");
 const modalBg = $("#modalBg");
 
@@ -18,3 +19,4 @@ hideModal = () => {
 $(".donate").click(showModal);
 $(".close").click(hideModal);
 modalBg.click(hideModal);
+*/
