@@ -29,6 +29,7 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/universal.css">
 
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -89,24 +90,23 @@ Conversely, Damage to drones means losing effective control of assault groups.</
  </p>
   
 </p>
-   <div class="gallery-js">
+   <div class="gallery-js js-masonry" data-masonry-options='{ "itemSelector": ".grid-item", "columnWidth": 200 }' >
  <!-- Create links -->
 	    <a data-fslightbox="demo-images" href="/img/UCOG-building.jpeg">
-                    <img class="img" width=30% src="/img/UCOG-building.jpeg"
+                    <img class="img grid-item" width=30% src="/img/UCOG-building.jpeg"
                          alt="UCOG scope building">
                 </a>
 	   
 	     <a data-fslightbox="demo-images" href="/img/Balistic-reticle.jpeg">
-                    <img class="img" width=30% src="/img/Balistic-reticle.jpeg"
+                    <img class="img grid-item" width=30% src="/img/Balistic-reticle.jpeg"
                          alt="UCOG balistic reticle">
                 </a>
 	  
 	      <a data-fslightbox="demo-images" href="/img/Balistic-setting.jpeg">
-                    <img class="img" width=30% src="/img/Balistic-setting.jpeg"
+                    <img class="img grid-item" width=30% src="/img/Balistic-setting.jpeg"
                          alt="UCOG balistic settings">
                 </a> 
-
-	  </div>
+   </div>
 	  
 <!-- Add the library (only one file) -->
 <script src="/js/fslightbox.js"></script>
@@ -205,8 +205,8 @@ titanium silencers are lightweight and durable, full-auto rated.
               <li>Warm clothing, jackets, and boots</li>
               <li>Food and other essentials </li>
               <li>More than 300 different scopes</li>
-              <li>More than 200 silencers and AK(74/47) optic mounting kits were produced locally in Ukraine</li>
-              <li>Dozen UAV/drones delivered</li>
+              <li>More than 200 silencers and AK(74/47) optics mounting kits were produced locally in Ukraine</li>
+              <li>Dozen UAV/Drones delivered</li>
               <li>Electronic reconnaissance and warfare equipment</li>
             </ul>
             <a href="hhttps://www.kyivpost.com/russias-war/fight-like-nato-ukrainian-infantrymen-reveal-what-they-need-to-defeat-russia.html" target="blank">
@@ -318,6 +318,8 @@ titanium silencers are lightweight and durable, full-auto rated.
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
